@@ -1,5 +1,3 @@
-// Express supports routing with either app.route(path).get(callback) or
-// app.get('path', callback)
 
 const express = require('express');
 const app = express();
