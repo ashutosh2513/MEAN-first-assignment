@@ -1,5 +1,4 @@
-// Rendering views is a common feature of express which is used to send our data to a template.
-// In express, ejs module is used to render the template with HTML.
+// Rendering views is a common feature of express which is used to send our data to a template.The ejs module is used to render the template with HTML.
 
 const express = require('express');
 const app = express();
