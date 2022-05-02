@@ -1,0 +1,30 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "Mean Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashutosh2513/MEAN-first-assignment.git"
+  },
+  "keywords": [
+    "MEAN",
+    "MongoDB",
+    "Express",
+    "AngularJS",
+    "Nodejs"
+  ],
+  "author": "ashutosh2513",
+  "license": "ISC",
+  "homepage": "https://github.com/ashutosh2513/MEAN-first-assignment#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "jquery": "^3.6.0",
+    "morgan": "^1.10.0"
+  }
+}

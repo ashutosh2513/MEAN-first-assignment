@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+	    <link href="./css/bootstrap.min.css" rel = "stylesheet">
+	    <link href="./c_css/home.css" rel = "stylesheet">
+        <title>Ejs_Home</title>
+        <style>
+            #about {
+                margin: 10px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <header class="bg-danger bg-gradient text-white">
+            <div class="container px-4 text-center pt-3 pb-3">
+                <h1 class="fw-bolder">This is EJS Home page</h1>
+                <h2 class="fw-bolder">Welcome <%=text.name%></h2>
+            </div>
+        </header>
+
+     
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Hello there!</h2>
+                        <p class="lead">My hobbies are as follow:</p>
+                         <ul>
+        <% text.Hobbies.forEach((item)=>{%>
+        <li><%=item%></li>
+        <%});%>
+    </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- js bootstrap -->
+	<script src = "./js/bootstrap.min.js"></script>
+	<script src = "./js/jquery.min.js"></script>
+    </body>
+</html>
